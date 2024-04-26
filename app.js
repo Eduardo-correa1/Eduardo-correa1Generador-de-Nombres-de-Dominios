@@ -3,7 +3,7 @@ let adj = ["fantastic", "drunk","sleeping"];
 let noun = ["fish", "mother", "alien", "horse", "squid"];
 let dom = [".com", ".net"];
 //bucle for
-const generadorDominiofor = () =>{
+const generadorDominioFor = () =>{
     for(let p = 0; p < pron.length; p++){
         for(let a = 0; a < adj.length; a++){
             for(let n = 0; n < noun.length; n++){
@@ -16,7 +16,7 @@ const generadorDominiofor = () =>{
     }
 }
 // bucle map
- const generadorDominiomap = () =>{
+ const generadorDominioMap = () =>{
 pron.map((p) =>{
     adj.map((a)=>{
         noun.map((n)=>{
@@ -29,7 +29,7 @@ pron.map((p) =>{
 });
 };
 // foreach
-const generadorDominiofe = () =>{
+const generadorDominioFE = () =>{
     pron.forEach((p) =>{
         adj.forEach((a)=>{
             noun.forEach((n)=>{
@@ -41,6 +41,9 @@ const generadorDominiofe = () =>{
         });
     });
     };
-generadorDominiofe();
-generadorDominiomap();
-generadorDominiofor();
+    console.log("FOR EACH")
+generadorDominioFE();
+console.log("MAP")
+generadorDominioMap();
+console.log("FOR")
+generadorDominioFor();
