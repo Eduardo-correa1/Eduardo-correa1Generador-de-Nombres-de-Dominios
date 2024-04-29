@@ -41,9 +41,9 @@ const generadorDominioFE = () =>{
         });
     });
     };
-console.log("FOR EACH");
+
 generadorDominioFE();
-console.log("MAP");
+
 generadorDominioMap();
-console.log("FOR");
+
 generadorDominioFor();
