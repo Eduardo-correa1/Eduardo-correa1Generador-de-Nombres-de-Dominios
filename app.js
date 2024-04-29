@@ -9,12 +9,12 @@ const generadorDominioFor = () =>{
             for(let n = 0; n < noun.length; n++){
                 for(let d = 0; d < dom.length; d++){
                 let dominio = pron[p] + adj[a] + noun[n] + dom[d];
-            console.log(dominio)
+            console.log(dominio);
             }
         }
         }
     }
-}
+};
 // bucle map
  const generadorDominioMap = () =>{
 pron.map((p) =>{
@@ -41,9 +41,9 @@ const generadorDominioFE = () =>{
         });
     });
     };
-    console.log("FOR EACH")
+console.log("FOR EACH");
 generadorDominioFE();
-console.log("MAP")
+console.log("MAP");
 generadorDominioMap();
-console.log("FOR")
+console.log("FOR");
 generadorDominioFor();
