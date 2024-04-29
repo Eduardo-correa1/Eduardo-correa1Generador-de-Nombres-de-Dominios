@@ -9,41 +9,41 @@ const generadorDominioFor = () =>{
             for(let n = 0; n < noun.length; n++){
                 for(let d = 0; d < dom.length; d++){
                 let dominio = pron[p] + adj[a] + noun[n] + dom[d];
-            console.log(dominio);
+                console.log(dominio);
             }
         }
         }
     }
 };
 // bucle map
- const generadorDominioMap = () =>{
-pron.map((p) =>{
-    adj.map((a)=>{
-        noun.map((n)=>{
-            dom.map((d)=>{
-                let dominio = p + a + n + d;
-            console.log(dominio);
-            });
-        });
-    });
-});
-};
+// const generadorDominioMap = () =>{
+//pron.map((p) =>{
+//    adj.map((a)=>{
+ //       noun.map((n)=>{
+//            dom.map((d)=>{
+//                let dominio = p + a + n + d;
+//            console.log(dominio);
+//            });
+//        });
+//    });
+//});
+//};
 // foreach
-const generadorDominioFE = () =>{
-    pron.forEach((p) =>{
-        adj.forEach((a)=>{
-            noun.forEach((n)=>{
-                dom.forEach((d)=>{
-                    let dominio = p + a + n + d;
-                console.log(dominio);
-                });
-            });
-        });
-    });
-    };
+//const generadorDominioFE = () =>{
+//    pron.forEach((p) =>{
+//        adj.forEach((a)=>{
+//            noun.forEach((n)=>{
+//                dom.forEach((d)=>{
+//                    let dominio = p + a + n + d;
+//                console.log(dominio);
+//                });
+//            });
+//        });
+//    });
+//    };
 
-generadorDominioFE();
+//generadorDominioFE();
 
-generadorDominioMap();
+//generadorDominioMap();
 
 generadorDominioFor();
